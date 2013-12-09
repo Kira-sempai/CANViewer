@@ -1,0 +1,15 @@
+E:\CANViewer\CANViewer\obj\x86\Release\ResolveAssemblyReference.cache
+E:\CANViewer\CANViewer\obj\x86\Release\MainWindow.baml
+E:\CANViewer\CANViewer\obj\x86\Release\MainWindow.g.cs
+E:\CANViewer\CANViewer\obj\x86\Release\App.g.cs
+E:\CANViewer\CANViewer\obj\x86\Release\CANViewer_MarkupCompile.cache
+E:\CANViewer\CANViewer\obj\x86\Release\CANViewer.g.resources
+E:\CANViewer\CANViewer\obj\x86\Release\CANViewer.Properties.Resources.resources
+E:\CANViewer\CANViewer\obj\x86\Release\GenerateResource.read.1.tlog
+E:\CANViewer\CANViewer\obj\x86\Release\GenerateResource.write.1.tlog
+E:\CANViewer\CANViewer\bin\Release\CANViewer.exe
+E:\CANViewer\CANViewer\bin\Release\CANViewer.pdb
+E:\CANViewer\CANViewer\obj\x86\Release\CANViewer.exe
+E:\CANViewer\CANViewer\obj\x86\Release\CANViewer.pdb
+E:\CANViewer\CANViewer\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+E:\CANViewer\CANViewer\obj\x86\Release\CANViewer_MarkupCompile.lref

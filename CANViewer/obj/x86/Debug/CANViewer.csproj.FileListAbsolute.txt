@@ -1,0 +1,29 @@
+E:\CANViewer\CANViewer\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\CANViewer\CANViewer\obj\x86\Debug\MainWindow.baml
+E:\CANViewer\CANViewer\obj\x86\Debug\MainWindow.g.cs
+E:\CANViewer\CANViewer\obj\x86\Debug\App.g.cs
+E:\CANViewer\CANViewer\obj\x86\Debug\CANViewer_MarkupCompile.cache
+E:\CANViewer\CANViewer\obj\x86\Debug\CANViewer.g.resources
+E:\CANViewer\CANViewer\obj\x86\Debug\CANViewer.Properties.Resources.resources
+E:\CANViewer\CANViewer\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\CANViewer\CANViewer\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\CANViewer\CANViewer\bin\Debug\CANViewer.exe
+E:\CANViewer\CANViewer\bin\Debug\CANViewer.pdb
+E:\CANViewer\CANViewer\obj\x86\Debug\CANViewer.exe
+E:\CANViewer\CANViewer\obj\x86\Debug\CANViewer.pdb
+E:\CANViewer\CANViewer\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\CANViewer\CANViewer\obj\x86\Debug\CANViewer_MarkupCompile.lref
+E:\Program Files\CANViewer\CANViewer\obj\x86\Debug\CANViewer.exe
+E:\Program Files\CANViewer\CANViewer\obj\x86\Debug\CANViewer.pdb
+E:\Program Files\CANViewer\CANViewer\bin\Debug\CANViewer.exe
+E:\Program Files\CANViewer\CANViewer\bin\Debug\CANViewer.pdb
+E:\Program Files\CANViewer\CANViewer\obj\x86\Debug\CANViewer.csprojResolveAssemblyReference.cache
+E:\Program Files\CANViewer\CANViewer\obj\x86\Debug\MainWindow.g.cs
+E:\Program Files\CANViewer\CANViewer\obj\x86\Debug\App.g.cs
+E:\Program Files\CANViewer\CANViewer\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Program Files\CANViewer\CANViewer\obj\x86\Debug\CANViewer_MarkupCompile.cache
+E:\Program Files\CANViewer\CANViewer\obj\x86\Debug\CANViewer_MarkupCompile.lref
+E:\Program Files\CANViewer\CANViewer\obj\x86\Debug\MainWindow.baml
+E:\Program Files\CANViewer\CANViewer\obj\x86\Debug\CANViewer.g.resources
+E:\Program Files\CANViewer\CANViewer\obj\x86\Debug\CANViewer.Properties.Resources.resources
+E:\Program Files\CANViewer\CANViewer\obj\x86\Debug\CANViewer.csproj.GenerateResource.Cache

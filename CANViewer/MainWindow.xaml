@@ -1,0 +1,50 @@
+﻿<Window x:Class="CANViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:CANViewer"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <local:BoolToStringConverter x:Key="FlagConverter" FalseValue="" TrueValue="+" />
+        <local:BoolToBoolConverter x:Key="InverseConverter" FalseValue="true" TrueValue="false" />
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Menu>
+            <MenuItem Header="File">
+                <MenuItem Header="Export" Click="Export_Click" />
+            </MenuItem>
+            <MenuItem Header="CAN">
+                <MenuItem Header="Start" IsEnabled="{Binding IsWorking, Converter={StaticResource InverseConverter}}" Click="Start_Click" />
+                <MenuItem Header="Stop" IsEnabled="{Binding IsWorking}" Click="Stop_Click" />
+            </MenuItem>
+        </Menu>
+        <DataGrid Name="messageGrid" Grid.Row="1" Grid.Column="0" ItemsSource="{Binding Data}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Time" Binding="{Binding DateTime, StringFormat={}{0:yyyy.MM.dd hh:mm:ss.fff}}" />
+                <DataGridTextColumn Header="Message" Binding="{Binding Message}" />
+                <DataGridTextColumn Header="Source" Binding="{Binding Parsed.Source}" />
+                <DataGridTextColumn Header="Target" Binding="{Binding Parsed.Target}" />
+                <DataGridTextColumn Header="R" Binding="{Binding Parsed.Response, Converter={StaticResource FlagConverter}}" />
+                <DataGridTextColumn Header="E" Binding="{Binding Parsed.Exception, Converter={StaticResource FlagConverter}}" />
+                <DataGridTextColumn Header="F" Binding="{Binding Parsed.Reserved}" />
+                <DataGridTextColumn Header="Type" Binding="{Binding Parsed.Type}" />
+                <DataGridTextColumn Header="Function" Binding="{Binding Parsed.Function}" />
+                <DataGridTextColumn Header="Temperature" Binding="{Binding Parsed.Temperature}" />
+                <DataGridTextColumn Header="Priority" Binding="{Binding Parsed.Priority}" />
+                <DataGridTextColumn Header="Manager" Binding="{Binding Parsed.Manager}" />
+                <DataGridTextColumn Header="State" Binding="{Binding Parsed.State}" />
+                <DataGridTextColumn Header="Boiler Type" Binding="{Binding Parsed.BoilerType}" />
+                <DataGridTextColumn Header="Power" Binding="{Binding Parsed.Power}" />
+                <DataGridTextColumn Header="Work Time" Binding="{Binding Parsed.WorkTime}" />
+                <DataGridTextColumn Header="Datetime" Binding="{Binding Parsed.Datetime, StringFormat={}{0:yyyy.MM.dd hh:mm:ss.fff}}" />
+                <DataGridTextColumn Header="Error" Binding="{Binding Parsed.Error}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
